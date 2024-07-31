@@ -1,0 +1,134 @@
+.hero-colecciones {
+    @include img-cover-text-center;
+    background-image: url(../assets/img/heroColecciones.jpg);
+}
+
+/* CSS SECCION COLECCIONES */
+
+.hero-colecciones{
+margin-bottom: 20px;
+}
+
+.PageColecciones {
+    display: grid;
+    justify-items: left;
+    padding: 20px 0 20px 0;
+    align-content: flex-start;
+}
+
+.PageColecciones h3 {
+    font-size: xx-large;
+}
+
+.PageColecciones .nombreColeccion h4 {
+    font-family: 'Harmonia2';
+    color: #000;
+    font-weight: 800;
+    font-size: medium;
+    padding-left: 4px;
+}
+
+.SectColecciones {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    align-items: center;
+}
+
+.botonColecc button {
+    width: 170px;
+    margin: 10px 0px 30px 100px;
+    padding: 5px 0;
+}
+
+.imgColeccion img {
+    width: 100%;
+}
+
+.imgColeccion:hover {
+    transform: scale(1.02);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    
+    .PageColecciones {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        padding: 0 20px;
+    }
+
+    .PageColecciones .nombreColeccion h4 {
+        font-family: 'Harmonia2';
+        color: #000;
+        font-weight: 800;
+        font-size: 16px;
+        padding-left: 4px;
+    }
+
+    .SectColecciones {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .botonColecc button {
+        width: 170px;
+        margin: 10px 0px 30px 40px;
+        padding: 5px 0;
+    }
+
+    .imgColeccion img {
+        width: 100%;
+        height: 310px;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+    .container .PageColecciones{
+        padding: 0;
+    }
+
+    .PageColecciones {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-content: flex-start;
+        padding: 0 20px;
+    }
+
+    .PageColecciones h3 {
+        padding-left: 0;
+        font-size: xx-large;
+    }
+
+    .PageColecciones .nombreColeccion h4 {
+        font-family: 'Harmonia2';
+        color: #000;
+        font-weight: 800;
+        font-size: 10px;
+        padding-left: 4px;
+    }
+
+    .SectColecciones {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .botonColecc button {
+        width: 170px;
+        margin: 10px 20px 40px 20px;
+        padding: 5px 0;
+    }
+
+    .imgColeccion img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+    }
+}

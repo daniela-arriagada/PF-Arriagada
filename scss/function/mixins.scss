@@ -1,0 +1,17 @@
+@mixin img-cover-text-center (){
+    background-size: cover;
+    background-position:center;
+    height:380px;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    text-justify: center;
+
+    @media (max-width:768px){
+        background-size: cover;
+        height:180px;
+        width: 100%;
+        text-align: center;
+        text-justify: center;
+}
+}

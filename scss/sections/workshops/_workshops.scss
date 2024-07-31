@@ -1,0 +1,128 @@
+/* CSS WORKSHOPS */
+
+.hero-workshops {
+    background-image: url(../assets/img/146.jpg);
+    @include img-cover-text-center;
+}
+
+.container-workshops {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 60px 0 60px 0;
+    gap: 20px;
+
+}
+
+.container-workshops img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    background-position: 0cm;
+    justify-content: space-between;
+}
+
+.container-workshops .workshops {
+    width: 376px;
+}
+
+.container-workshops .h3 {
+    margin-top: 10px;
+}
+
+.workshops img {
+    margin-bottom: 15px;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+
+    .hero-workshops {
+        background-image: url(../assets/img/146.jpg);
+        @include img-cover-text-center;
+    }
+    
+    .container-workshops {
+        display: flex;
+        justify-content: space-between;
+        justify-items: center;
+        padding: 60px 10px 60px 10px;
+        gap: 20px;    
+    }
+    
+    .container-workshops img {
+        height: 200px;
+        object-fit: cover;
+        background-position: 0cm;
+        justify-content: space-between;
+    }
+    
+    .container-workshops .workshops {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 430px;
+        width: 33.3%;
+    }
+    
+    .container-workshops h3 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    
+    .workshops{
+        width: auto;
+    }
+    .workshops p{
+        font-size: 15px;
+    }
+    .workshops img {
+        margin-bottom: 15px;
+    }
+    .workshops button{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .hero-workshops {
+        background-image: url(../assets/img/146.jpg);
+        @include img-cover-text-center;
+    }
+
+    .container-workshops {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+        padding: 20px 10px 20px 10px;
+        margin: 10px 0;
+    }
+
+    .container-workshops img {
+        height: 315px;
+        width: 315px;
+        object-fit: cover;
+    }
+
+    .container-workshops .workshops {
+        height: auto;
+        width: 315px;
+    }
+
+    .container-workshops div {
+        padding: 15px 0;
+    }
+
+    .container-workshops .h3 {
+        margin-top: 20px;
+    }
+
+    .workshops img {
+        margin: 5px 0;
+    }
+
+}

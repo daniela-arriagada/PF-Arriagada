@@ -1,0 +1,132 @@
+@font-face {
+  font-family: "Harmonia2";
+  src: url(/fonts/Harmonia\ Sans\ W01\ Regular.otf);
+  font-weight: regular;
+}
+@font-face {
+  font-family: "Harmonia";
+  src: url(/fonts/Harmonia\ Sans\ W01\ Bold.otf);
+  font-weight: bold;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Harmonia";
+  font-weight: 900;
+  text-transform: uppercase;
+  color: white;
+  font-size: 50px;
+  text-shadow: 2px 3px 15px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  font-family: "Harmonia2";
+  font-size: 40px;
+  font-weight: 300;
+}
+
+h3 {
+  font-family: "Harmonia";
+  font-size: 27px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.029em;
+}
+
+h4 {
+  font-family: "Harmonia2";
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.059em;
+  text-decoration: none;
+  color: #000000;
+}
+
+button {
+  border: black;
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: white;
+  transition: transform 0.25s ease-out;
+  border-width: 2px;
+  border-style: solid;
+  letter-spacing: 0.012em;
+  box-shadow: 3px 3px #000;
+}
+
+a {
+  font-family: "Harmonia2";
+  letter-spacing: 0.09em;
+}
+
+button:hover {
+  transform: scale(1.04);
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+  font-family: "Harmonia";
+  letter-spacing: 0.075em;
+}
+
+input {
+  border-style: solid black;
+  font-family: "Harmonia2";
+  height: 30px;
+  width: 180px;
+  height: 30px;
+  font-family: "Harmonia2";
+  padding-left: 10px;
+}
+
+body {
+  font-family: "Harmonia2";
+}
+
+
+/* HEADER*/
+
+header .logo {
+  width: 70px;
+}
+header header {
+  background-color: #000000;
+  height: 120px;
+  align-content: center;
+}
+header nav {
+  margin: auto;
+  font-size: 20px;
+}
+header nav ul li {
+  font-family: "Harmoni";
+  font-size: small;
+  letter-spacing: 0.075em;
+}
+header .menu-horizontal {
+  list-style: none;
+  display: flex;
+}
+header .container-header {
+  justify-content: end;
+}
+header .menu-horizontal li a {
+  display: block;
+  padding: 0 40px;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+}
+header .menu-horizontal li:hover {
+  color: white;
+  scale: 1.02;
+}
+header .menu-horizontal li:hover {
+  display: block;
+}/*# sourceMappingURL=estilos.css.map */
+
